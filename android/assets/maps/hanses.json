@@ -1,0 +1,304 @@
+
+{
+  "collisionbitplanes" : 
+  {
+    "names" : 
+    [
+      "bitplane1",
+      "bitplane2",
+      "bitplane3",
+      "bitplane4",
+      "bitplane5",
+      "bitplane6",
+      "bitplane7",
+      "bitplane8",
+      "bitplane9",
+      "bitplane10",
+      "bitplane11",
+      "bitplane12",
+      "bitplane13",
+      "bitplane14",
+      "bitplane15",
+      "bitplane16",
+      "bitplane17",
+      "bitplane18",
+      "bitplane19",
+      "bitplane20",
+      "bitplane21",
+      "bitplane22",
+      "bitplane23",
+      "bitplane24",
+      "bitplane25",
+      "bitplane26",
+      "bitplane27",
+      "bitplane28",
+      "bitplane29",
+      "bitplane30",
+      "bitplane31",
+      "bitplane32"
+    ]
+  },
+  "metaworld" : 
+  {
+    "allowSleep" : true,
+    "autoClearForces" : true,
+    "continuousPhysics" : true,
+    "exportOptions" : 
+    {
+      "compactCommonFloats" : true,
+      "compactZeroVecs" : true,
+      "saveFullPathForImages" : true,
+      "saveImagePathsRelativeToRUBEFile" : false,
+      "useHumanReadableFloats" : true,
+      "usePrettyPrint" : true
+    },
+    "gravity" : 
+    {
+      "x" : 0,
+      "y" : -10
+    },
+    "metabody" : 
+    [
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 1,
+            "name" : "fixture0",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.1627889275550842,
+                -0.09598753601312637,
+                -0.005584752187132835,
+                0.07409407943487167,
+                0.07409407943487167,
+                0.08306664228439331,
+                0.1063963025808334,
+                0.09598753601312637,
+                0.04825229197740555,
+                0.007336135953664780,
+                -0.03788698464632034,
+                -0.09598753601312637
+              ],
+              "y" : 
+              [
+                0.03784295916557312,
+                -0.09598752856254578,
+                -0.3433233201503754,
+                -0.3433233201503754,
+                -0.2076539695262909,
+                -0.09383404254913330,
+                0.03999644517898560,
+                0.09598755836486816,
+                0.2424237430095673,
+                0.2445778250694275,
+                0.2273493707180023,
+                0.09598755836486816
+              ]
+            }
+          }
+        ],
+        "id" : 1,
+        "linearVelocity" : 0,
+        "massData-I" : 0.002400912344455719,
+        "massData-center" : 
+        {
+          "x" : -0.003725118469446898,
+          "y" : -0.03319269791245461
+        },
+        "massData-mass" : 0.09441766887903214,
+        "name" : "hans?",
+        "position" : 
+        {
+          "x" : 3.638361930847168,
+          "y" : 0.6774027943611145
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 2,
+            "name" : "fixture1",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "line"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ -3.464514017105103, 3.464514017105103 ],
+              "y" : [ 0.0, 0.0 ]
+            }
+          }
+        ],
+        "id" : 2,
+        "linearVelocity" : 0,
+        "name" : "edge",
+        "position" : 
+        {
+          "x" : 3.523704051971436,
+          "y" : 0.1765808761119843
+        },
+        "type" : "static"
+      },
+      
+      {
+        "angle" : -1.570796370506287,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 1,
+            "friction" : 0.2,
+            "id" : 3,
+            "name" : "fixture0",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                -0.1627889275550842,
+                -0.09598753601312637,
+                -0.005584752187132835,
+                0.07409407943487167,
+                0.07409407943487167,
+                0.08306664228439331,
+                0.1063963025808334,
+                0.09598753601312637,
+                0.04825229197740555,
+                0.007336135953664780,
+                -0.03788698464632034,
+                -0.09598753601312637
+              ],
+              "y" : 
+              [
+                0.03784295916557312,
+                -0.09598752856254578,
+                -0.3433233201503754,
+                -0.3433233201503754,
+                -0.2076539695262909,
+                -0.09383404254913330,
+                0.03999644517898560,
+                0.09598755836486816,
+                0.2424237430095673,
+                0.2445778250694275,
+                0.2273493707180023,
+                0.09598755836486816
+              ]
+            }
+          }
+        ],
+        "id" : 3,
+        "linearVelocity" : 0,
+        "massData-I" : 0.002400912344455719,
+        "massData-center" : 
+        {
+          "x" : -0.003725118469446898,
+          "y" : -0.03319269791245461
+        },
+        "massData-mass" : 0.09441766887903214,
+        "name" : "hans?",
+        "position" : 
+        {
+          "x" : 2.727624416351318,
+          "y" : 0.5011678934097290
+        },
+        "type" : "dynamic"
+      }
+    ],
+    "metaimage" : 
+    [
+      
+      {
+        "aspectScale" : 1,
+        "body" : 1,
+        "center" : 
+        {
+          "x" : 0.08217307180166245,
+          "y" : 0.1469304859638214
+        },
+        "file" : "C:/Users/Alex/git/hans-mobile/Hans_Mobile-android/assets/images/HanzDefault0000.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 1,
+        "name" : "image0",
+        "opacity" : 0.5,
+        "scale" : 1
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 2,
+        "center" : 
+        {
+          "x" : 0.01901002600789070,
+          "y" : -0.04534642398357391
+        },
+        "file" : "C:/Users/Alex/git/hans-mobile/Hans_Mobile-android/assets/images/greenboy.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 2,
+        "name" : "image1",
+        "opacity" : 0.5,
+        "scale" : 0.08915448933839798
+      },
+      
+      {
+        "aspectScale" : 1,
+        "body" : 3,
+        "center" : 
+        {
+          "x" : 0.08217307180166245,
+          "y" : 0.1469304859638214
+        },
+        "file" : "C:/Users/Alex/git/hans-mobile/Hans_Mobile-android/assets/images/HanzDefault0000.png",
+        "filter" : 1,
+        "flip" : false,
+        "id" : 3,
+        "name" : "image0",
+        "opacity" : 0.5,
+        "scale" : 1
+      }
+    ],
+    "positionIterations" : 3,
+    "stepsPerSecond" : 60.0,
+    "subStepping" : false,
+    "velocityIterations" : 8,
+    "warmStarting" : true
+  }
+}

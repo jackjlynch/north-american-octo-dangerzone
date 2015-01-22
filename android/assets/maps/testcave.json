@@ -1,0 +1,155 @@
+
+{
+	"allowSleep" : true,
+	"autoClearForces" : true,
+	"body" : 
+	[
+		
+		{
+			"angle" : 0,
+			"angularVelocity" : 0,
+			"awake" : true,
+			"fixture" : 
+			[
+				
+				{
+					"density" : 1,
+					"friction" : 0.2,
+					"name" : "fixture0",
+					"polygon" : 
+					{
+						"vertices" : 
+						{
+							"x" : 
+							[
+								2.159709930419922,
+								-1.841336488723755,
+								-1.841336488723755,
+								2.159709453582764
+							],
+							"y" : 
+							[
+								0.02759310044348240,
+								0.02759314700961113,
+								-0.02759314700961113,
+								-0.02759314700961113
+							]
+						}
+					}
+				}
+			],
+			"linearVelocity" : 0,
+			"massData-I" : 0.3002090454101563,
+			"massData-center" : 
+			{
+				"x" : 0.1591863185167313,
+				"y" : -1.086277912065725e-008
+			},
+			"massData-mass" : 0.2208028137683868,
+			"name" : "floor1",
+			"position" : 
+			{
+				"x" : 1.840380311012268,
+				"y" : 0.02735172584652901
+			},
+			"type" : 2
+		}
+	],
+	"collisionbitplanes" : 
+	{
+		"names" : 
+		[
+			"bitplane1",
+			"bitplane2",
+			"bitplane3",
+			"bitplane4",
+			"bitplane5",
+			"bitplane6",
+			"bitplane7",
+			"bitplane8",
+			"bitplane9",
+			"bitplane10",
+			"bitplane11",
+			"bitplane12",
+			"bitplane13",
+			"bitplane14",
+			"bitplane15",
+			"bitplane16",
+			"bitplane17",
+			"bitplane18",
+			"bitplane19",
+			"bitplane20",
+			"bitplane21",
+			"bitplane22",
+			"bitplane23",
+			"bitplane24",
+			"bitplane25",
+			"bitplane26",
+			"bitplane27",
+			"bitplane28",
+			"bitplane29",
+			"bitplane30",
+			"bitplane31",
+			"bitplane32"
+		]
+	},
+	"continuousPhysics" : true,
+	"gravity" : 
+	{
+		"x" : 0,
+		"y" : -10
+	},
+	"image" : 
+	[
+		
+		{
+			"aspectScale" : 1,
+			"body" : 0,
+			"center" : 
+			{
+				"x" : 0.1596196889877319,
+				"y" : 0.4726482629776001
+			},
+			"corners" : 
+			{
+				"x" : 
+				[
+					-1.840380311012268,
+					2.159619808197022,
+					2.159619808197022,
+					-1.840380311012268
+				],
+				"y" : 
+				[
+					-0.02735173702239990,
+					-0.02735173702239990,
+					0.9726482629776001,
+					0.9726482629776001
+				]
+			},
+			"file" : "../images/testcave.bmp",
+			"filter" : 1,
+			"glDrawElements" : [ 0, 1, 2, 2, 3, 0 ],
+			"glTexCoordPointer" : [ 0.0, 0.0, 1, 0.0, 1, 1, 0.0, 1 ],
+			"glVertexPointer" : 
+			[
+				-1.840380311012268,
+				-0.02735173702239990,
+				2.159619808197022,
+				-0.02735173702239990,
+				2.159619808197022,
+				0.9726482629776001,
+				-1.840380311012268,
+				0.9726482629776001
+			],
+			"name" : "image0",
+			"opacity" : 0.5,
+			"scale" : 1
+		}
+	],
+	"positionIterations" : 3,
+	"stepsPerSecond" : 60.0,
+	"subStepping" : false,
+	"velocityIterations" : 8,
+	"warmStarting" : true
+}
