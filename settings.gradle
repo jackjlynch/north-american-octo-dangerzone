@@ -1,1 +1,5 @@
 include 'desktop', 'android', 'ios', 'html', 'core'
+
+include ':RubeLoader'
+project(':RubeLoader').projectDir = new File(settingsDir, '../RubeLoader/RubeLoader')
+
