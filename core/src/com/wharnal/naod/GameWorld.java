@@ -31,6 +31,12 @@ public class GameWorld {
             }
     }
 
+    GameWorld(Hans hans) {
+        this.hans = hans;
+        entities = new Array<Entity>();
+        entities.add(hans);
+    }
+
     public void update() {
         for(Entity e : entities)
             e.update();

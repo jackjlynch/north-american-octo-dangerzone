@@ -22,7 +22,7 @@ public class Hans extends Entity {
 
     public void update() {
         super.update();
-        physicsObject.applyForce(accelerationForce, physicsObject.getPosition(), true);
+        //physicsObject.applyForce(accelerationForce, physicsObject.getPosition(), true);
 
         //jump(); used for jumping farther when you hold the key in conjunction with startJump()
     }
